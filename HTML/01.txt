@@ -1,0 +1,10 @@
+-> Headings 6
+-> Paragraph tag
+-> div tag
+-> Span tag
+-> List tags OL and UL
+-> img tag (Pexels.com for images)
+
+CSS=>
+-> Padding = Around the text
+-> Margin = Around the boarder
