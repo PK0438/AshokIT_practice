@@ -4,6 +4,10 @@
 -> Span tag
 -> List tags OL and UL
 -> img tag (Pexels.com for images)
+-> anchor tag => target="_blank"
+-> Image as links
+-> Table tag
+-> Form tag => form, lable, input, input types, select, checkbox, radiobuttons, textarea, fieldset, legend
 
 CSS=>
 -> Padding = Around the text
