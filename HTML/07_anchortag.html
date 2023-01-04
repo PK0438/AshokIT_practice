@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anchor tag</title>
+    <style>
+      .button {
+        color: crimson;
+        background-color: cornsilk;
+        border-radius: 30%;
+        animation: blinker 1s linear infinite;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.facebook.com/" target="_blank">
+      <img
+        src="../HTML/images/facebook.png"
+        alt="https://www.facebook.com/"
+        height="50px"
+        width="50px"
+      />
+    </a>
+    <div>
+      <h4>
+        If you're not able to follow on social media, please
+        <button class="button" type="submit"><b>Click me!</b></button>
+      </h4>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            background-color: lightskyblue;
+        }
+        div {
+            background-color: deepskyblue;
+            text-align: center;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form tag</h1>
+    <div>
+        <h2>Login here!</h2>
+        <form>
+            <input type="text" placeholder="Username" autofocus/>
+            <br />
+            <input type="password" placeholder="Password"/> <br />
+            <button type="submit">Submit</button>
+        </form>
+        <div>
+            <h3>Signup here</h3>
+            <form>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Username</td>
+                            <td> <input type="text" autofocus/></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td> <input type="password"/></td>
+                        </tr>
+                        <tr>
+                            <td>Confirm password</td>
+                            <td> <input type="password"/></td>
+                        </tr>
+                        <tr>
+                            <td>Date of birth</td>
+                            <td> <input type="date"/></td>
+                        </tr>
+                        <tr>
+                            <td>gender</td>
+                            <td> 
+                                <input type="radio" name="gender"/> Male
+                                <input type="radio" name="gender" /> Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td> <p>I agree to the terms and conditions!</p></td>
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td><button type="submit">Submit </button></td>
+                        <td><button type="reset">Reset </button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
