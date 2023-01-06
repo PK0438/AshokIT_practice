@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BG Styles</title>
+    <style>
+      #bg-image {
+        width: 500px;
+        height: 500px;
+        box-shadow: 0 0 10px black;
+        padding: 5px;
+        background-image: url("images/image_1.jpg");
+        color: aliceblue;
+      }
+      #bg-attach {
+        height: 200px;
+        box-shadow: 0 0 10px black;
+        background-image: url("images/image_1.jpg");
+        background-attachment: fixed;
+      }
+      #bg-position {
+        height: 300px;
+        width: 500px;
+        box-shadow: 0 0 10px black;
+        /* background-image: url("images/img-small.jpeg");
+            background-repeat: repeat-y;
+            background-position: center; */
+        background: white url("images/car-maserati.jpg") no-repeat fixed top
+          right;
+      }
+      #bg-size {
+        height: 300px;
+        width: 500px;
+        box-shadow: 0 0 10px black;
+        background-image: url("images/car-mastang.jpg");
+        background-size: cover;
+      }
+      #bg-grad {
+        height: 600px;
+        width: 600px;
+        box-shadow: 0 0 10px teal;
+        background: linear-gradient(45deg, #285430, #5F8D4E, #A4BE7B, #E5D9B6);
+      }
+      #bg-rgrad {
+        height: 600px;
+        width: 600px;
+        box-shadow: 0 0 10px teal;
+        background: radial-gradient(#285430, #5F8D4E, #A4BE7B, #E5D9B6);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bg-image">
+      <h2>Background image</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quibusdam
+        nobis assumenda non eligendi unde itaque veniam repellat doloremque
+        molestias magnam explicabo dignissimos ad impedit, esse voluptas fugit,
+        harum nesciunt?
+      </p>
+    </div>
+
+    <h2>BG Attach</h2>
+    <div id="bg-attach"></div>
+
+    <h2>BG position</h2>
+    <div id="bg-position"></div>
+
+
+    <h2>BG size</h2>
+    <div id="bg-size"></div>
+
+    <h2>Bg Liniear Gradiant</h2>
+    <div id="bg-grad"></div>
+
+    <h2>Bg Radial Gradiant</h2>
+    <div id="bg-rgrad"></div>
+
+    <div style="margin-bottom: 1000px"></div>
+  </body>
+</html>

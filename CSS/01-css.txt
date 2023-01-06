@@ -1,0 +1,18 @@
+-> tag based styles
+-> Colors
+    RGB -> rgb(164,190,124)
+    HEX -> #a4be7c
+    HSL -> hsl(84,34%,62%)
+    RGBA -> rgba(164,190,124,0.5)
+    HSLA -> hsla(84,34%,62%,0.5)
+-> CSS backgrounds
+    background-color
+    background-image
+    background-attachment : scroll, Fixed (By default it will be in scroll)
+    background-position : center, top right, bottom left etc
+    background-repeat
+    background-size
+    4 in 1 => 
+    background: color image position repeat attachment
+-> CSS borders
+    border: width style color
