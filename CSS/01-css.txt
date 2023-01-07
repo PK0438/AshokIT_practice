@@ -16,3 +16,10 @@
     background: color image position repeat attachment
 -> CSS borders
     border: width style color
+-> CSS margins and paddings
+    margin-left: 10px; (only left side margin)
+    margin: 10px; (four sides margin)
+    margin: 10px 20px 30px 40px; (top right bottom left)
+    margin: 10px 20px; (top&bottom left&right)
+-> CSS outline
+    outlone:size style color; 
