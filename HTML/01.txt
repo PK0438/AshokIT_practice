@@ -12,3 +12,16 @@
 CSS=>
 -> Padding = Around the text
 -> Margin = Around the boarder
+
+=> HTML 5 tags => SEO
+    <nav>
+    <aside>
+    <section>
+    <article>
+    <header>
+    <footer>
+    <figure>
+    <figcaption>
+    <audio>
+    <video>
+    

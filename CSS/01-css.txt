@@ -23,3 +23,46 @@
     margin: 10px 20px; (top&bottom left&right)
 -> CSS outline
     outlone:size style color; 
+    Order => margin, outline, border, padding, content  
+-> text-formats
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    line-height: 30px;
+    word-spacing: 10px;
+-> CSS display
+    HTML has two kinds of elements. inline and Block-level
+    => Inline tags -> a, span, input, image
+    => Block-level tags -> h1 to h6, p, div, nav, sidebar etc
+    -> CSS display is to convert inline elements to block level and viceversa using CSS. 
+    display: block;
+    display: inline;
+    display: inline-block; -> padding won't apply for inline html tags. so we use this. 
+    display: none;
+    display: flex; (will see it in the CSS Flexbox section)
+-> CSS Positions
+    position: static; -> default position of every html element
+    position: relative; -> position w.r.t browser
+    position: absolute; -> position w.r.t parent element. It has to given to the child element which the parent element has position: relative;
+    position: fixed; -> position w.r.t scroll bar.
+    position: sticky;
+    top, bottom, left, right (px or %)
+    z-index -> one upon the other boxes -> more z-index value comes front
+-> CSS Flexbox 
+    -> outer box is called as flexbox and the items in flexbox are called as flex-items.
+    display: flex; should have to give it to the parent element. so that the child elements becomes flex-items
+    By default the flex direction should be row. so that the flex-items will stretch w.r.t to the row on the moment display:flex applied to the parent.
+    -> flex-direction: row; (default)
+    -> flex-direction: row-reverse;
+    -> flex-direction: column;
+    -> flex-direction: column-reverse;
+    -> align-items: center; flex-start; flex-end;
+    -> justify-content: center; start; end; space-between; space-around; space-evenly;
+-> CSS Transforms
+    -> transform: rotate(30deg), scale(), skew(), translate()
+    -> perspective(400px) rotateX(30deg), perspective(300px) rotateY(45deg)
+    -> translateX(100px) translateY(100px);
+    -> scale(1,1) => X axis 100%, Y axis 100%. so no change. 
+    -> scale(1.2, 1.2); scale(0.8, 0.8);
+
