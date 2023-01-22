@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figure</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+        }
+        .gallery {
+            text-align: center;
+        }
+        figure {
+             border-radius: 10px;
+             width: 300px;
+             text-align: center;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             background-color: grey;
+             overflow: hidden;  
+             box-shadow: 0 0 10px red;
+             display: inline-block;
+             margin: 20px;
+            }
+        .zoom {
+            overflow: hidden;
+            height: 100%;
+            width: 300px;
+        }
+        figure img {
+            width: 100%;
+            height: 200px; 
+            border-radius: 10px;    
+            transition: all 0.8s;
+            cursor: pointer;
+            filter: grayscale(100%);
+        }
+        figure img:hover{
+            transform: scale(1.2, 1.2);
+            filter: grayscale(0%);
+        }
+        figure figcaption {
+            padding: 10px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="gallery">
+        <figure> 
+            <div class="zoom">
+                <img src="../CSS/images/car-audi.jpg" alt="">
+            </div>
+            <figcaption>
+                <h2>Audi</h2>
+            </figcaption>
+        </figure>
+        <figure> 
+            <div class="zoom">
+                <img src="../CSS/images/car-benz.jpg" alt="">
+            </div>
+            <figcaption>
+                <h2>Benz</h2>
+            </figcaption>
+        </figure>
+        <figure> 
+            <div class="zoom">
+                <img src="../CSS/images/car-bmw.jpg" alt="">
+            </div>
+            <figcaption>
+                <h2>BMW</h2>
+            </figcaption>
+        </figure>
+        <figure> 
+            <div class="zoom">
+                <img src="../CSS/images/car-ferrari.jpg" alt="">
+            </div>
+            <figcaption>
+                <h2>Ferrari</h2>
+            </figcaption>
+        </figure>
+        <figure> 
+            <div class="zoom">
+                <img src="../CSS/images/car-jaguar.jpg" alt="">
+            </div>
+            <figcaption>
+                <h2>Jaguar</h2>
+            </figcaption>
+        </figure>
+        <figure> 
+            <div class="zoom">
+                <img src="../CSS/images/car-maserati.jpg" alt="">
+            </div>
+            <figcaption>
+                <h2>Maserati</h2>
+            </figcaption>
+        </figure>
+        <figure> 
+            <div class="zoom">
+                <img src="../CSS/images/car-mastang.jpg" alt="">
+            </div>
+            <figcaption>
+                <h2>Mastang</h2>
+            </figcaption>
+        </figure>
+    </section>
+
+</body>
+</html>
