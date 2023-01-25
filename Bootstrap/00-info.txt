@@ -1,0 +1,123 @@
+Bootstrap -> Developed by Mark Otto @ Twitter
+-> Popular CSS library
+-> Highly customizable
+-> Pre definded CSS classes and components like, Navbar, sidebar, cards, alerts, modals, forms, etc.,
+
+=> Steps to install Bootstrap
+    -> Go to www.getbootstrap.components
+    -> Click on download link
+    -> extract the downloaded zip file. 
+    -> Copy CSS and JS folders and paste them in the workspace. 
+
+Have to connect the following two files to the html file in order to access Bootstrap. 
+-> bootstrap.CSS 
+->bootstrap.bundle.js
+-> <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+   <script src="/Bootstrap/bootstrap/js/bootstrap.bundle.js"></script>
+
+=> Steps to install Bootstrap Icons
+    -> Go to www.getbootstrap.components
+    -> Click on Icons
+    -> Clink Install link
+    -> Click on download latest zip (It will redirect you to a git hub page)
+    -> click on sourcecode.zip file in git hub
+    -> Extract the downloaded folder. 
+    -> Copy the font folder and paste it in the workspace. 
+    -> link bootstrap-icons.css file in the head section of the html
+    -> <link rel="stylesheet" href="/Bootstrap/bootstrap/icons/font/bootstrap-icons.css">
+    -> Click on any icon whatever you want in Bootstrap icons website, they will tell you how to configure the icon. 
+
+=> Display classes
+    -> for bigger font sizes use classes from display-1 to display-6
+    -> for font weight bold -> fw-bold
+
+=> Color names of Bootstrap
+    -> primary = blue
+    -> secondary = grey
+    -> info = light blue
+    -> success = green
+    -> warning =  orange
+    -> danger =  red
+    -> dark = dark grey/black
+    -> light = light-grey
+    -> white = white
+
+=> Text colors
+    -> text-primary = blue
+    -> text-secondary = grey
+    -> text-info = light blue
+    -> text-success = green
+    -> text-warning =  orange
+    -> text-danger =  red
+    -> text-dark = dark grey/black
+    -> text-light = light-grey
+    -> text-white = white
+
+=> Background colors 
+    -> bg-primary = blue
+    -> bg-secondary = grey
+    -> bg-info = light blue
+    -> bg-success = green
+    -> bg-warning =  orange
+    -> bg-danger =  red
+    -> bg-dark = dark grey/black
+    -> bg-light = light-grey
+    -> bg-white = white
+
+=> Button colors 
+    -> btn-primary = blue
+    -> btn-secondary = grey
+    -> btn-info = light blue
+    -> btn-success = green
+    -> btn-warning =  orange
+    -> btn-danger =  red
+    -> btn-dark = dark grey/black
+    -> btn-light = light-grey
+    -> btn-white = white
+
+=> List Group item colors 
+    -> list-group-item-primary = blue
+    -> list-group-item-secondary = grey
+    -> list-group-item-info = light blue
+    -> list-group-item-success = green
+    -> list-group-item-warning =  orange
+    -> list-group-item-danger =  red
+    -> list-group-item-dark = dark grey/black
+    -> list-group-item-light = light-grey
+    -> list-group-item-white = white
+
+=> alert colors 
+    -> alert-primary = blue
+    -> alert-secondary = grey
+    -> alert-info = light blue
+    -> alert-success = green
+    -> alert-warning =  orange
+    -> alert-danger =  red
+    -> alert-dark = dark grey/black
+    -> alert-light = light-grey
+    -> alert-white = white
+
+==> You can over ride the exisitng classes by writing styles by our own. 
+
+=> Margins & Paddings
+    -> should have to give these numbers 0, 1, 2, 3, 4, 5, auto(for center), like some 0.25rem, 0.5rem, 1rem, 1.5rem, 3rem
+    -> m-1 = mx+my = margin
+    -> mt-2 = margin-top
+    -> mb-3 = margin-bottom
+    -> ms-4 = margin-start
+    -> me-4 = margin-end
+    -> mx = ms+me (X-axis) => ms-2 me-2 = ms-2
+    => my = mt+mb (y-axis) 
+
+    => there is no auto for padding. 
+    -> p-1 = px+py = margin
+    -> pt-2 = padding-top
+    -> pb-3 = padding-bottom
+    -> ps-4 = padding-start
+    -> pe-4 = padding-end
+    -> px = ps+pe (X-axis) => ps-2 pe-2 = ps-2
+    => py = pt+pb (y-axis) 
+
+=> Bootstrap Icons
+    -> class="bi bi-android"
+    -> bi = bootstrap-icon 
