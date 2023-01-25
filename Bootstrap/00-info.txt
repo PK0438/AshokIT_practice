@@ -121,3 +121,39 @@ Have to connect the following two files to the html file in order to access Boot
 => Bootstrap Icons
     -> class="bi bi-android"
     -> bi = bootstrap-icon 
+
+=> Grid system
+    -> The whole page can be devided into rows and columns
+    ->  .container
+            .rows
+                .col -> we can consume 12 columns per one row.
+    -> If we devide a complete page into half each half contains 6 columns. 
+    -> If we devide a complete page into 3 parts each part contains 4 columns. 
+    -> If we devide a complete page into 4 parts each part contains 3 columns. 
+    -> for nested elements also each element contains 12 columns. No comparison with the parent element. 
+    -> height doesn't matter. We will get a scroll bar for height according to the content. but there should be no bottom scroll bar in bootstrap. 
+    -> class="col-1", "col-2", etc
+    -> col-6 => exactly half of the page
+    -> "col" is a non-responsive class 
+
+    -> to make it responsive, we have to use breakpoints recommended by Bootstrap
+
+    Breakpoint	    Class infix	    Dimensions (https://getbootstrap.com/docs/5.3/layout/breakpoints/)
+    Extra small	        None	    <576px
+    Small	            sm	        ≥576px
+    Medium	            md	        ≥768px
+    Large	            lg	        ≥992px
+    Extra large	        xl	        ≥1200px
+    Extra extra large	xxl	        ≥1400px     
+
+    -> syntax => .col-<screenSize(class infix)>-<columnNumber> => .col-sm-6, .col-md-4, .col-lg-3 etc.,
+
+    -> for small -> 2 cols -> 6*6                                   => .col-sm-6
+    -> for medium -> 3 cols -> 4*4*4                                => .col-md-4
+    -> for large -> 4 cols -> 3*3*3*3                               => .col-lg-3
+    -> for extra large -> 6 col -> 2*2*2*2*2*2                      => .col-xl-2
+    -> for extra extra large -> 12 col -> 1*1*1*1*1*1*1*1*1*1*1*1   => .col-xxl-1
+
+=> List-group
+    -> for ul -> .list-group
+    -> for li -> .list-group-item
