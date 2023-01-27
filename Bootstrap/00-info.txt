@@ -75,17 +75,6 @@ Have to connect the following two files to the html file in order to access Boot
     -> btn-light = light-grey
     -> btn-white = white
 
-=> List Group item colors 
-    -> list-group-item-primary = blue
-    -> list-group-item-secondary = grey
-    -> list-group-item-info = light blue
-    -> list-group-item-success = green
-    -> list-group-item-warning =  orange
-    -> list-group-item-danger =  red
-    -> list-group-item-dark = dark grey/black
-    -> list-group-item-light = light-grey
-    -> list-group-item-white = white
-
 => alert colors 
     -> alert-primary = blue
     -> alert-secondary = grey
@@ -157,3 +146,31 @@ Have to connect the following two files to the html file in order to access Boot
 => List-group
     -> for ul -> .list-group
     -> for li -> .list-group-item
+    -> .list-group-item-action
+
+=> List Group item colors 
+    -> list-group-item-primary = blue
+    -> list-group-item-secondary = grey
+    -> list-group-item-info = light blue
+    -> list-group-item-success = green
+    -> list-group-item-warning =  orange
+    -> list-group-item-danger =  red
+    -> list-group-item-dark = dark grey/black
+    -> list-group-item-light = light-grey
+    -> list-group-item-white = white
+
+
+=> cards
+    -> Every card has been devided into 3 parts. Card-header, card-body, card-footer
+    -> .card    
+        .card-header
+            .card-body
+                .card-footer
+    -> .card-title, .card-subtitle, .card-text, .card-img
+
+=> forms
+    -> form-control  => text, password, email, textarea
+    -> form-check-input => radio button, checkbox
+    -> form-check-label =>
+    -> form-select => select (dropdown) -> form-select-sm, form-select-lg
+    -> form-range => range selection
