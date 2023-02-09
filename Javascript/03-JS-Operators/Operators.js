@@ -125,3 +125,10 @@ let mobileTwo = {
 //To compare two objects we have to convert the objects to JSON string like below. 
 (JSON.stringify(mobileOne) === JSON.stringify(mobileTwo)) ? 
     console.log("Equal") : console.log("Not equal");
+
+//another methode of comparing obects
+if (Object.entries(mobileOne).toString() === Object.entries(mobileTwo).toString()) {
+    console.log("Equal")
+} else {
+    console.log("Not equal")
+};
