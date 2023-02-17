@@ -125,3 +125,104 @@ for(let i = 1; i <= 5; i++) {
     result += `\n`;
 }
 console.log(result);
+
+//Practice here: https://www.tutorialstonight.com/js/javascript-star-pattern
+//Practice here: https://www.tutorialstonight.com/number-pattern-programs-in-javascript
+/**
+ * 1
+ * 12
+ * 123
+ * 1234
+ * 12345
+ */
+/**
+ * Explanation: To create the left triangle pattern in javascript again run 2 nested for loop external loop will take care of columns of pattern and the internal loop will print rows of the pattern.
+You can observe from the above-shown pattern that we need to run an external loop for '5' time while the internal loop runs for 1 time in the first execution, 2 times in the second execution, and so on till '5' times.
+You can use the value of i from the external loop which will increase from 1 to '5' inside the internal loop as a condition.
+ */
+result = "";
+for(let i=1; i <= 5; i++) {
+    for(let j=1; j<=i; j++) {
+        result += j;
+    }
+    result += `\n`;
+} 
+console.log(result);
+
+
+/**
+ * 5
+ * 54
+ * 543
+ * 5432
+ * 54321
+ */
+
+
+result = "";
+
+for(i = 5; i >= 1; i--){
+	//console.log(i)
+	  for (j = 5; j>= i; j--) {
+	  //console.log(j)
+	  result += j
+	  }
+    result += '\n'
+}
+console.log(result)
+
+/**
+ * 1
+ * 22
+ * 333
+ * 4444
+ * 55555
+ */
+
+
+result = "";
+// External loop
+for (let i = 1; i <= 5; i++) {
+  // Internal loop
+  for (let j = 1; j <= i; j++) {
+    result += i;
+  }
+  result += "\n";
+}
+console.log(result);
+
+
+/**
+ * 5
+ * 44
+ * 333
+ * 2222
+ * 11111
+ */
+
+result = "";
+for(let i = 5; i >= 1; i--){
+    for(let j = 5; j >=i ; j--) {
+        result += i;
+    }
+    result += `\n`; 
+}
+console.log(result)
+
+
+/**
+ * 54321
+ * 5432
+ * 543
+ * 54
+ * 5
+ */
+
+
+/**
+ * 12345
+ * 1234
+ * 123
+ * 12
+ * 1
+ */
