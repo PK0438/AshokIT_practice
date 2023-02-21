@@ -218,6 +218,18 @@ console.log(result)
  * 5
  */
 
+result = "";
+for(let i=1; i<=5; i++){
+    //console.log("i=>",i);
+    for(let j=1; j<=5-i+1; j++){
+        //console.log("j=>", j);
+        result += 5-j+1;
+    }
+    result += '\n'
+}
+
+console.log(result);
+
 
 /**
  * 12345
@@ -226,3 +238,14 @@ console.log(result)
  * 12
  * 1
  */
+
+result = "";
+for(let i=1; i<=5; i++){
+   // console.log("i=>", i);
+    for(let j=1; j<=5-i+1; j++){
+       // console.log("j=>", j);
+        result += j;
+    }
+    result += '\n';
+}
+console.log(result)
