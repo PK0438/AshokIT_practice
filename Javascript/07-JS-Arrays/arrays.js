@@ -161,4 +161,51 @@ const getAllJuniorEmp = () => {
     return jrEmp;
 }
 let jrEmp = getAllJuniorEmp(employees);
-console.log(jrEmp);
+console.log("jrEmp => ", jrEmp);
+
+//filtering using the filter    => filter gives the array of records.
+const getAllJrEmp = () => {
+  let JuniorEmp = employees.filter((employee) => {
+    return employee.age <= 30;
+  })
+  return JuniorEmp;
+}
+JuniorEmp = getAllJrEmp(employees);
+console.log("JuniorEmp => ", JuniorEmp);
+
+/**
+ * => shortcut for the above example
+  const getAllJrEmp = () => {
+  return employees.filter((employee) => {
+    return employee.age <= 30;
+  })
+  return JuniorEmp;
+}
+JuniorEmp = getAllJrEmp(employees);
+console.log("JuniorEmp => ", JuniorEmp);
+ */
+
+/**
+ * => even shortcut for the above example
+  const getAllJrEmp = () => {
+  return employees.filter(employee => employee.age <= 30;)
+  return JuniorEmp;
+}
+JuniorEmp = getAllJrEmp(employees);
+console.log("JuniorEmp => ", JuniorEmp);
+ */
+
+/**
+ * Outcomes =>
+ * filter -> [{}]     =>Array of objects
+ * find -> {} or undefined    =>Individual object or undefined
+ * map -> [ages], [names], [designation]  =>individual keys of an object in the array
+ */
+
+//map => Just want to get all the employee names in an array
+const getAllEmpNames = (employees) => {
+  return employees.map(employee => employee.name);
+}
+const employeeNames = getAllEmpNames(employees);
+console.log("map example => ", employeeNames)
+
