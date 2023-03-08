@@ -199,12 +199,17 @@ console.log("JuniorEmp => ", JuniorEmp);
  * Outcomes =>
  * filter -> [{}]     =>Array of objects
  * find -> {} or undefined    =>Individual object or undefined
- * map -> [ages], [names], [designation]  =>individual keys of an object in the array
+ * map -> [ages], [names], [designation]  =>individual key, values of an object in the array
  */
 
 //map => Just want to get all the employee names in an array
 const getAllEmpNames = (employees) => {
-  return employees.map(employee => employee.name);
+  return employees.map(employee => {
+    return {
+      name : employee.name,
+      age : employee.age
+    }
+  });
 }
 const employeeNames = getAllEmpNames(employees);
 console.log("map example => ", employeeNames)
