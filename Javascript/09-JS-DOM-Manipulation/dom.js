@@ -70,6 +70,41 @@ const geth2Tag = document.querySelector("#changeDiv h2"); //since we changed the
 console.log("geth2Tag => ", geth2Tag);
 
 const geth1Tag = document.querySelector("#changeDiv h1");
-geth1Tag.innerText = `How are you?`;       //changing the text inside the exisiting h1 tag. 
+geth1Tag.innerHTML = `<h1><span style="color:orange">How are you?</span></h1>`;       //changing the exisiting h1 tag content and the styles. 
 console.log("geth1Tag => ", geth1Tag);
+
+/**
+ * Change the styles.
+ */
+const h2StyleChange =  document.querySelector("#styles h2");
+h2StyleChange.style.backgroundColor = "red";
+h2StyleChange.style.color = "white";
+h2StyleChange.style.padding = "20px";
+h2StyleChange.style.margin = "20px";
+h2StyleChange.style.textAlign = "center";
+
+/**
+ * Change the attributes
+ * ---------------------
+ * => there are two functions available to change the attributes
+ *  -> getAttribute("name"); => gives value of the attribute
+ *  -> setAttribute("name", "value"); => have to give the name and value which needed to be changed. 
+ */
+
+
+/**
+ * => the below approch is also valid. 
+ * const getImgDiv = document.querySelector("#image");
+ * getImgDiv.innerHTML = `<img src="./images/img2.jpg"></img>`
+ */
+
+const getImage = document.querySelector("#image img");
+getImage.style.height = "400px";
+getImage.style.width = "600px";
+getImage.style.margin = "10px";
+getImage.style.borderRadius = "20px";
+getImage.style.boxShadow = "0 0 10px grey";
+
+console.log("value of the SRC attribute => ", getImage.getAttribute("src"));
+getImage.setAttribute("src", "./images/img2.jpg");
 
