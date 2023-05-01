@@ -1,0 +1,80 @@
+{
+  "contacts": [
+    {
+      "name": "Pramod Kumar",
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+      "mobile": "9100372103",
+      "email": "pramod@gmail.com",
+      "company": "WT Systems",
+      "title": "Software Engineer",
+      "groupId": "1",
+      "id": "NGARH4t"
+    },
+    {
+      "name": "Will Smith",
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/11/Will-Smith-PNG-Picture.png",
+      "mobile": "2011457895",
+      "email": "will.smith@gmail.com",
+      "company": "Hollywood",
+      "title": "Actor/Host",
+      "groupId": "3",
+      "id": "Z1FV6-i"
+    },
+    {
+      "name": "Virat",
+      "imageUrl": "https://staticg.sportskeeda.com/editor/2023/01/91b37-16741295618495-1920.jpg",
+      "mobile": "85214779654",
+      "email": "virat@gmail.com",
+      "company": "BCCI",
+      "title": "Captain",
+      "groupId": "4",
+      "id": "Z55WXZ2"
+    },
+    {
+      "name": "Rohit",
+      "imageUrl": "https://pbs.twimg.com/media/FCImrowVcAI277q.jpg",
+      "mobile": "9988776665",
+      "email": "rohit@gmail.com",
+      "company": "BCCI",
+      "title": "Captain",
+      "groupId": "6",
+      "id": "TNXjPqf"
+    },
+    {
+      "name": "Dhoni",
+      "imageUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200/lsci/db/PICTURES/CMS/319900/319946.png",
+      "mobile": "7744118855",
+      "email": "dhoni@gmail.com",
+      "company": "BCCI",
+      "title": "Former Captain",
+      "groupId": "2",
+      "id": "vmNlIQQ"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Family"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Colleague"
+    },
+    {
+      "id": "4",
+      "name": "Social"
+    },
+    {
+      "id": "5",
+      "name": "Service"
+    },
+    {
+      "id": "6",
+      "name": "Community"
+    }
+  ]
+}

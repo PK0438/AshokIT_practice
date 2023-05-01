@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../bootstrap/icons/font/bootstrap-icons.css">
+    <script href="../../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Contact Manager</title>
+</head>
+<body>
+    
+    <!-- Main Navbar -->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <div class="container">
+            <a href="../../index.html" class="navbar-brand"> 
+                <i class="bi bi-phone"></i>
+                Contact <span class="text-warning">Manager</span> </a>
+        </div>
+    </nav>
+
+    <!-- Heading -->
+
+    <section class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <p class="h3">Contact Manager</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias facere cum illum blanditiis similique commodi quod libero repellendus laboriosam distinctio praesentium quam nam explicabo adipisci beatae, necessitatibus eaque nulla aperiam atque vitae accusantium maiores culpa error. Unde assumenda veniam, alias possimus dolores natus nobis qui a minus non earum exercitationem!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search form -->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Search contact...">
+                        </div>
+                        <div class="col">   
+                            <input type="submit" class="btn btn-outline-dark">
+                            <a href="./create-contact.html" class="btn btn-success"> <i class="bi bi-plus-circle-fill"></i> New</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-3">
+        <div class="row" id="cards-row">
+
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./javascript/contact-admin.js" type="module"></script>
+
+</body>
+</html>
