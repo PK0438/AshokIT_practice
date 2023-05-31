@@ -29,14 +29,8 @@ const TourCards = () => {
             id: 4,
             title: "Switzerland",
             image: cardImg4
-        },
-        {
-            id: 5,
-            title: "India",
-            image: cardImg1
         }
     ]);
-
   return (
     <>
       <TourHeading heading={"Nicky Holiday Tours"} textColor={"text-success"}/>
